@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe_Project_1</title>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
+    <link href="css/contactus.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="shortcut icon" href="Images/favicon_scissors.ico" type="image/x-icon">
+
+    <script src="JS/index.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div>
+        <section>
+            <header class="p-3 bg-white text-white fixed-top">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="index.html"
+                            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                            <img class="img-fluid" src="Images/Brand.jpg" width="40" height="32" role="img"
+                                aria-label="Logo">
+                        </a>
+                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                            <li><a href="index.html" class="nav-link px-2 text-black">Home Page</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </header>
+        </section>
+    </div>
+    <section>
+        <div class="container mt-2">
+            <div class="p-5 my-2">
+
+            </div>
+            <form action="mailto:vtudatazone@hotmail.com" id="contactus" method="post" enctype="text/plain">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="yourName" placeholder="Your name..">
+                    </div>
+                    <div class="col-6">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="yourLastName" placeholder="Your last name..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <label for="email">Your Email</label><br>
+                        <input type="email" id="email" name="yourEmail" placeholder="Your email id..">
+                    </div>
+                    <div class="col-6">
+                        <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Nigeria</option>
+                    <option value="canada">Other</option>
+                </select>
+                    </div>
+                </div>
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Nigeria</option>
+                    <option value="canada">Other</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="yourSubject" placeholder="Write something.." style="height:40px"></textarea>
+
+                <label for="email">Your Message</label>
+                <textarea id="message" name="yourMessage" placeholder="Write your message here..."
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+        </div>
+    </section>
+</body>

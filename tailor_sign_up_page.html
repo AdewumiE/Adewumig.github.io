@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="css/index.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+  <link rel="shortcut icon" href="Images/favicon_scissors.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="index.js"></script>
+    <title>My Dashboard</title>
+</head>
+<body>
+  <div>
+    <section>
+      <header class="p-3 bg-white text-black fixed-top">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="index.html"
+              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img class="img-fluid" src="Images/Brand.jpg" width="40" height="32" role="img" aria-label="Logo">
+            </a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-black">Home Page</a></li>
+            </ul>
+           
+          </div>
+        </div>
+      </header>
+    </section>
+  </div>
+    <section class="h-100 bg-white">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img src="Images/tailor_registration.jpg"
+                      alt="Sample photo" class="img-fluid"
+                      style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body p-md-5 text-black">
+                      <h3 style="text-align:center" class="mb-5 text-uppercase">Tailor Registration Form</h3>
+      
+                      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <label class="form-label" for="form3Example1m">First name</label>
+                            <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                            
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <label class="form-label" for="form3Example1n">Last name</label>
+                            <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                            
+                          </div>
+                        </div>
+                          <div class="form-outline mb-4">
+                            <label class="form-label" for="form3Examplee8">Business Name</label>
+                            <input type="text" id="form3Examplee8" class="form-control form-control-lg" />
+                            
+                          </div>
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example8">Office Address</label>
+                        <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                        
+                      </div>
+      
+                      <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+      
+                        <h6 class="mb-0 me-4">Gender: </h6>
+      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                            value="option1" />
+                          <label class="form-check-label" for="femaleGender">Female</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline mb-0 me-4">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                            value="option2" />
+                          <label class="form-check-label" for="maleGender">Male</label>
+                        </div>
+       
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+      
+                          <select class="select">
+                            <option value="1">State</option>
+                            <option value="2">Abia</option>
+                            <option value="3">Lagos</option>
+                            <option value="4">Ogun</option>
+                          </select>
+      
+                        </div>
+                        <div class="col-md-6 mb-4">
+      
+                          <select class="select">
+                            <option value="1">City</option>
+                            <option value="2">Option 1</option>
+                            <option value="3">Option 2</option>
+                            <option value="4">Option 3</option>
+                          </select>
+      
+                        </div>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example9">DOB</label>
+                        <form action="/action_page.php">
+                          <input type="date" id="birthday" name="birthday">
+                        </form>                     
+                      </div>
+
+      
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example90">Pincode</label>
+                        <input type="text" id="form3Example90" class="form-control form-control-lg" />
+                      </div>
+          
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example97">Email ID</label>
+                        <input type="email" id="form3Example97" class="form-control form-control-lg" required />
+                      </div>
+                      <!--
+                          <div class="form-outline mb-4">
+                        <input type="text" id="form3Example99" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example99">Course</label>
+                      </div>
+                      -->
+      
+                      <div class="d-flex justify-content-end pt-3">
+                        <button type="reset" class="btn btn-light btn-lg">Reset all</button>
+                        <button type="submit" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
